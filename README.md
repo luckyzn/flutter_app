@@ -1,5 +1,5 @@
 # TaskApp
- Basic ToDo App
+ Basic Task App
 
  ---INTEGRANTES -> Lucas S (Solo)
 
