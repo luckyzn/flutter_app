@@ -1,7 +1,7 @@
 # TaskApp
  Basic ToDo App
 
- ---INTEGRANTES -> Lucas Santana Lisboa
+ ---INTEGRANTES -> Lucas S (Solo)
 
 ----APK -> https://drive.google.com/file/d/1mCQaUF2B3uZXFk4x8biMu6Z-hjC-1_Wr/view?usp=drive_link
 
