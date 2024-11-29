@@ -84,7 +84,17 @@ class ResetPassword extends StatelessWidget {
                             )]),
                       child: SizedBox(
                         child: TextButton(
-                          onPressed: () => {},
+                          onPressed: () => {
+                            showDialog(context: context, builder: (context) =>
+                             AlertDialog(
+                                title: Text('Não Implementado'),
+                                actions: [
+                                    TextButton(onPressed: (){
+                                      Navigator.of(context).pop();
+                                    }, child: const Text('Fechar'))
+                                ],
+                              ))
+                          },
                           child: const Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
