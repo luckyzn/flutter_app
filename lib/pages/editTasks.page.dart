@@ -42,15 +42,29 @@ class _AddTasksState extends State<EditTasks> {
                   ), 
                 child: ListView(
                   children: [
-                    const SizedBox(height: 60),
-                    const Card(
-                          elevation: 4,
-                          margin: EdgeInsets.only(left: 40,right: 40),
-                          child: ListTile(
-                            title: Text('Título',textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20), ),
-                            
-                          ),
-                      ),
+                    const SizedBox(height:60),
+                    TextFormField(
+                      
+                      textAlign: TextAlign.center,
+                      decoration: InputDecoration(
+                        contentPadding: const EdgeInsets.only(
+                          top: 10,
+                          left: 10,
+                          right: 10,                       
+                     ),
+                      filled: true,
+                      border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                      hintText: 'Título',
+                      hintStyle: const TextStyle(
+                      fontSize: 18,
+                      color: Color.fromARGB(255, 95, 95, 95),
+                      fontWeight: FontWeight.w800,
+                      )),
+                      
+                      
+                    ),
                     const SizedBox(
                       height: 40,
                     ),
@@ -179,7 +193,17 @@ class _AddTasksState extends State<EditTasks> {
                         ]),
                       child: SizedBox(
                         child: TextButton(
-                          onPressed: () => {},
+                          onPressed: () => {
+                            showDialog(context: context, builder: (context) =>
+                             AlertDialog(
+                                title: Text('Não Implementado'),
+                                actions: [
+                                    TextButton(onPressed: (){
+                                      Navigator.of(context).pop();
+                                    }, child: const Text('Fechar'))
+                                ],
+                              ))
+                          },
                           child: const Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
