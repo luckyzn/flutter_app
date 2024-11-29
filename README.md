@@ -1,6 +1,8 @@
 # TaskApp
  Basic ToDo App
 
+ ---INTEGRANTES -> Lucas Santana Lisboa
+
 ----APK -> https://drive.google.com/file/d/1mCQaUF2B3uZXFk4x8biMu6Z-hjC-1_Wr/view?usp=drive_link
 
 ----PDF -> [PROJETO A3.pdf](https://github.com/user-attachments/files/17963553/PROJETO.A3.pdf)
