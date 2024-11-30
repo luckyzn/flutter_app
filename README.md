@@ -1,7 +1,7 @@
 # TaskApp
  Basic Task App
 
- ---INTEGRANTES -> Lucas S (Solo)
+ ---INTEGRANTES -> Lucas Santana (Solo)
 
  ----VÍDEO -> https://youtu.be/NgVHuiPLggA
 
